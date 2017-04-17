@@ -22,7 +22,7 @@ export default class PlayPang extends Phaser.State {
         this.playerShootTime = 0;
         this.playerShootInterval = 0.16;
 
-        // ------- ENEMY: this ones are created every update tick
+        // ------- ENEMY: these ones are created every update tick
         this.enemies = this.add.group();
         this.enemies.enableBody = true;
         this.enemyTime = 0;
@@ -37,11 +37,12 @@ export default class PlayPang extends Phaser.State {
         this.smallerEnemies.enableBody = true;
         // ------- !smallerENEMY
 
+
         // ------- ENEMY CLIENT: randomly chosen
         this.enemiesClient = this.add.group();
         this.enemiesClient.enableBody = true;
         //1.5
-        this.enemyClientInterval = 2.5;
+        this.enemyClientInterval = 2.0;
         this.enemyClientShootTime = 0;
         this.enemyClientShootInterval = 1;
             //initialize first client
@@ -58,6 +59,7 @@ export default class PlayPang extends Phaser.State {
             health: 90,
             bulletSpeed: this.game.rnd.integerInRange(10, 20) * 10,
             asset: 'aliens',
+            size: 0.8
         });
         // ------- !ENEMY CLIENT: randomly chosen
 
@@ -80,7 +82,6 @@ export default class PlayPang extends Phaser.State {
             player: this.player
         });
 
-
         // ------- SOUNDS
        // this.music = this.game.add.audio('playMusic');
         this.bulletHitSound = this.add.sound('bulletHit');
@@ -102,7 +103,6 @@ export default class PlayPang extends Phaser.State {
     }
 
     update() {
-
         this.enemyTime += this.game.time.physicsElapsed;
         this.enemyShootTime += this.game.time.physicsElapsed;
         this.playerShootTime += this.game.time.physicsElapsed;
@@ -148,9 +148,11 @@ export default class PlayPang extends Phaser.State {
 
         this.game.physics.arcade.overlap(this.player.bullets, this.enemies, this.hitEnemy, null, this);
 
-        this.game.physics.arcade.overlap(this.player, this.enemies, this.crashEnemy, null, this);
+        this.game.physics.arcade.overlap(this.player.bullets, this.smallerEnemies, this.hitEnemy, null, this);
 
+        this.game.physics.arcade.overlap(this.player, [this.enemies,this.smallerEnemies], this.crashEnemy, null, this);
 
+        this.loadMenu();
         // this.bg.tilePosition.x += 3;
     }
 
@@ -162,7 +164,7 @@ export default class PlayPang extends Phaser.State {
 
         if (!enemy) {
             enemy = new Enemy(data);
-            if(totalEnemies < 3){
+            if(totalEnemies < 5){
                 this.enemies.add(enemy);
             }
 
@@ -177,7 +179,7 @@ export default class PlayPang extends Phaser.State {
 
         if (!enemy) {
             enemy = new Enemy(data);
-            if(totalEnemies < 10){
+            if(totalEnemies < 24){
                 this.smallerEnemies.add(enemy);
             }
 
@@ -246,28 +248,23 @@ export default class PlayPang extends Phaser.State {
 
         this.bulletHitSound.play("",0,0.5);
         enemy.damage(bullet.health);
-        //enemy.x = enemy.x+20;
         this.hitEffect(enemy, bullet.tint);
-        if (!enemy.alive) {
-            this.enemyExplosionSound.play("",0,0.5);
-            this.hud.updateScore(enemy.maxHealth);
-            console.log(enemy);
-            console.log('CREA UNO!');
 
+        if (!enemy.alive) {
+            this.enemyExplosionSound.play("", 0, 0.5);
+            this.hud.updateScore(enemy.maxHealth);
             switch(enemy.size){
                 //Large -> Medium
                 case 2.5:
                   this.createSmallerEnemy({
                         game: this.game,
                         x: enemy.x,
-                        //0
                         y: enemy.y,
                         speed: {
-                            x: this.game.rnd.integerInRange(5, 10) * 10 * (Math.random() > 0.5 ? 1 : -1),
-                            y: this.game.rnd.integerInRange(5, 10) * 10
+                            x: 25 * 10,
+                            y: -30 * 10
                         },
-                        //9
-                        health: 9,
+                        health: 10,
                         bulletSpeed: this.game.rnd.integerInRange(10, 20) * 10,
                         asset: 'alien',
                         size: 1.5
@@ -275,56 +272,24 @@ export default class PlayPang extends Phaser.State {
                   this.createSmallerEnemy({
                         game: this.game,
                         x: enemy.x,
-                        //0
+
                         y: enemy.y,
                         speed: {
-                            x: this.game.rnd.integerInRange(-45, 45) * 10 * (Math.random() > 0.5 ? 1 : -1),
-                            y: (this.game.rnd.integerInRange(-20, -50) * 10 )
+                            x: -25 * 10,
+                            y: -30 * 10
                         },
-                        //9
-                        health: 9,
+
+                        health: 10,
                         bulletSpeed: this.game.rnd.integerInRange(10, 20) * 10,
                         asset: 'alien',
                         size: 1.5
                     });
-                    break;
-                //Medium -> Small
-                // case 1.5:
-                //     this.createSmallerEnemy({
-                //         game: this.game,
-                //         x: enemy.x,
-                //         //0
-                //         y: enemy.y,
-                //         speed: {
-                //             x: this.game.rnd.integerInRange(5, 10) * 10 * (Math.random() > 0.5 ? 1 : -1),
-                //             y: this.game.rnd.integerInRange(5, 10) * 10
-                //         },
-                //         //9
-                //         health: 9,
-                //         bulletSpeed: this.game.rnd.integerInRange(10, 20) * 10,
-                //         asset: 'alien',
-                //         size: 0.5
-                //     });
-                //     break;
+                  break;
 
             }
-
-
+            bullet.kill();
         }
-        bullet.kill();
     }
-
-    // hitPlayer(player, bullet) {
-    //     this.bulletHitSound.play("",0,0.5);
-    //     player.damage(bullet.health);
-    //     this.hud.updateHealth();
-    //     this.hitEffect(player, bullet.tint);
-    //     if (!player.alive) {
-    //         this.playerExplosionSound.play();
-    //         this.gameOver();
-    //     }
-    //     bullet.kill();
-    // }
 
     crashEnemy(player, enemy) {
         //enemy.damage(enemy.health);
@@ -357,4 +322,12 @@ export default class PlayPang extends Phaser.State {
         timer.start();
     }
 
+    loadMenu(){
+        let escKey = this.game.input.keyboard.isDown(Phaser.Keyboard.ESC);
+        if(escKey){
+            this.player.kill();
+            this.game.state.start('Menu');
+
+        }
+    }
 }

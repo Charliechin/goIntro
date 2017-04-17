@@ -5,8 +5,10 @@ export {default as Menu} from './menu';
 export {default as Play} from './play';
 export {default as Over} from './over';
 
-//game2
+//pangBtn
 export {default as PlayPang} from './playPang';
 export {default as PangOver} from './pangOver';
 
 //game3
+export {default as PlayPairs} from './playPairs';
+export {default as PairsOver} from './pairsOver';

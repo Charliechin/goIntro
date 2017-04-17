@@ -276,7 +276,7 @@ Thousands of [games](http://phaser.io/news/category/game) have been made in Phas
 [![Game](http://phaser.io/images/github/241/runaway-ruins.png)][game17]
 [![Game](http://phaser.io/images/github/241/ananias.png)][game18]
 [![Game](http://phaser.io/images/github/shot1a.jpg)][game1]
-[![Game](http://phaser.io/images/github/shot2a.jpg)][game2]
+[![Game](http://phaser.io/images/github/shot2a.jpg)][pangBtn]
 [![Game](http://phaser.io/images/github/shot3a.jpg)][game3]
 [![Game](http://phaser.io/images/github/shot4a.jpg)][game4]
 [![Game](http://phaser.io/images/github/shot5b.jpg)][game5]
@@ -453,7 +453,7 @@ All rights reserved.
 [forum]: http://www.html5gamedevs.com/forum/14-phaser/
 
 [game1]: https://www.prodigygame.com/Fun-Math-Games/
-[game2]: http://www.bbc.co.uk/cbbc/games/deadly-defenders-game
+[pangBtn]: http://www.bbc.co.uk/cbbc/games/deadly-defenders-game
 [game3]: http://www.defiantfew.com/
 [game4]: http://www.pawpatrol.com/fun.php
 [game5]: http://www.fyretale.com/

@@ -59,7 +59,7 @@ module.exports = {
                 to: '<img src="http://phaser.io/images/github/shot1a.jpg">'
             },
             {
-                from: '<a href="http://phaser.io/images/github/shot2a.jpg">![Game</a>][game2]',
+                from: '<a href="http://phaser.io/images/github/shot2a.jpg">![Game</a>][pangBtn]',
                 to: '<img src="http://phaser.io/images/github/shot2a.jpg"><br>'
             },
             {

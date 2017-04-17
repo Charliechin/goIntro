@@ -58,7 +58,8 @@ export default class Player extends Phaser.Sprite {
                 game: this.game,
                 x: this.x,
                 y: this.top,
-                health: 3,
+                //3
+                health: 1,
                 asset: 'bullet',
                 tint: 0x04c112
             });
@@ -66,12 +67,13 @@ export default class Player extends Phaser.Sprite {
             if(this.bullets.children.length <= 5){
                 this.shotSound.play("",0,0.5);
                 this.bullets.add(bullet);
+
                 bullet.body.velocity.y = this.bulletSpeed;
             }
         }
         else {
             this.shotSound.play("",0,0.5);
-            bullet.reset(this.x, this.top, 3);
+            bullet.reset(this.x, this.top, 1);
             bullet.body.velocity.y = this.bulletSpeed;
         }
 

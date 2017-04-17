@@ -3,16 +3,49 @@ import TextButton from '../extensions/textbutton';
 export default class Menu extends Phaser.State {
 
     create() {
-
-       // this.music = this.game.add.audio('menuMusic');
-
-        this.title = new Phaser.Text(this.game, this.game.world.centerX, this.game.world.centerY-200, 'Shoot\'Em Up', {
+        this.title = new Phaser.Text(this.game, this.game.world.centerX, this.game.world.centerY-200, 'Choose a game!', {
             font: '36px Tahoma',
             fill: 'white',
             align: 'center'
         });
         this.title.anchor.setTo(0.5);
+        // this.music = this.game.add.audio('menuMusic');
 
+
+        this.leftBtn = new TextButton({
+            game: this.game,
+            x: this.game.world.centerX - 200,
+            y: this.game.world.centerY,
+            asset: 'button',
+            overFrame: 2,
+            outFrame: 1,
+            downFrame: 0,
+            upFrame: 1,
+            label: 'LeftBtn',
+            style: {
+                font: '16px Verdana',
+                fill: 'white',
+                align: 'center'
+            }
+        });
+
+        this.btnOverSound = this.add.sound('menuOver');
+        this.btnOutSound = this.add.sound('menuOut');
+        this.btnDownSound = this.add.sound('menuDown');
+
+        this.leftBtn.setOverSound(this.btnOverSound);
+        this.leftBtn.setOutSound(this.btnOutSound);
+        this.leftBtn.setDownSound(this.btnDownSound);
+
+        this.leftBtn.onInputUp.add(()=>{
+            //this.music.stop();
+            this.state.start('PlayPairs');
+
+        });
+
+
+
+        // Second Btn
         this.start = new TextButton({
             game: this.game,
             x: this.game.world.centerX,
@@ -43,8 +76,8 @@ export default class Menu extends Phaser.State {
             this.state.start('Play');
 
         });
-
-        this.game2 = new TextButton({
+        // third Btn
+        this.pangBtn = new TextButton({
             game: this.game,
             x: this.game.world.centerX + 200,
             y: this.game.world.centerY,
@@ -53,7 +86,7 @@ export default class Menu extends Phaser.State {
             outFrame: 1,
             downFrame: 0,
             upFrame: 1,
-            label: 'Game 2',
+            label: 'Pang-like!',
             style: {
                 font: '16px Verdana',
                 fill: 'white',
@@ -65,11 +98,11 @@ export default class Menu extends Phaser.State {
         this.btnOutSound = this.add.sound('menuOut');
         this.btnDownSound = this.add.sound('menuDown');
 
-        this.game2.setOverSound(this.btnOverSound);
-        this.game2.setOutSound(this.btnOutSound);
-        this.game2.setDownSound(this.btnDownSound);
+        this.pangBtn.setOverSound(this.btnOverSound);
+        this.pangBtn.setOutSound(this.btnOutSound);
+        this.pangBtn.setDownSound(this.btnDownSound);
 
-        this.game2.onInputUp.add(()=>{
+        this.pangBtn.onInputUp.add(()=>{
             //this.music.stop();
             this.state.start('PlayPang');
 
@@ -80,8 +113,9 @@ export default class Menu extends Phaser.State {
 
         this.menuPanel = this.add.group();
         this.menuPanel.add(this.title);
+        this.menuPanel.add(this.leftBtn);
         this.menuPanel.add(this.start);
-        this.menuPanel.add(this.game2);
+        this.menuPanel.add(this.pangBtn);
 
         //this.music.loopFull();
     }

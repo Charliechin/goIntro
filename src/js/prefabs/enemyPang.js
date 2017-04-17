@@ -9,12 +9,8 @@ export default class Enemy extends Phaser.Sprite {
 
         this.anchor.setTo(0.5);
 
-        //scale
-            // 2.5 L, 2 M, 0.8 S
+        //size = scale
         this.size = size;
-        if (size === undefined) {
-            size = 2.5;
-        }
         this.scale.setTo(size);
         this.health = health;
         this.maxHealth = health;

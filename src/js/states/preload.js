@@ -33,6 +33,8 @@ export default class Preload extends Phaser.State {
 
         this.load.audio('gameOver', ['audio/sound/game-over.mp3']);
         //!game 1
+
+
         //game 2
         this.load.image('pangBg', 'img/pangBg.png');
 
