@@ -36,8 +36,14 @@ export default class Preload extends Phaser.State {
 
 
         //game 2
+            //pang
         this.load.image('pangBg', 'img/pangBg.png');
 
+        //!game 2
+        // matching
+        //game 3 -- w:80, l:80
+        this.load.spritesheet('tiles', 'img/spritesheet/tiles.png',80,80,11);
+        //game 3
     }
 
     create() {

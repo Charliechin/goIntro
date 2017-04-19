@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d2425f7-c0e7-437e-883a-cbb01b005647" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/states/pairsOver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/states/playPairs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/phaser/README.md" afterPath="$PROJECT_DIR$/bower_components/phaser/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/phaser/tasks/options/replace.js" afterPath="$PROJECT_DIR$/bower_components/phaser/tasks/options/replace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/dev/index.html" afterPath="$PROJECT_DIR$/builds/dev/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/spritesheet/tiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/extensions/cardbutton.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/dev/js/game.js" afterPath="$PROJECT_DIR$/builds/dev/js/game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/prefabs/enemyPang.js" afterPath="$PROJECT_DIR$/src/js/prefabs/enemyPang.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/prefabs/player.js" afterPath="$PROJECT_DIR$/src/js/prefabs/player.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/states/index.js" afterPath="$PROJECT_DIR$/src/js/states/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/states/menu.js" afterPath="$PROJECT_DIR$/src/js/states/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/states/playPang.js" afterPath="$PROJECT_DIR$/src/js/states/playPang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/states/playPairs.js" afterPath="$PROJECT_DIR$/src/js/states/playPairs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/states/preload.js" afterPath="$PROJECT_DIR$/src/js/states/preload.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,55 +19,111 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
+              <entry file="file://$USER_HOME$/Downloads/From_null_to_full_html5_cross_platform_game/25 - Organizing your folders/game.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="172">
+                    <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+                    <folding>
+                      <element signature="e#472#826#0" expanded="false" />
+                      <element signature="e#920#1110#0" expanded="false" />
+                      <element signature="e#1127#1230#0" expanded="false" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.46656978">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="playPairs.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/js/states/playPairs.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                    <element signature="e#309#465#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/js/states/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="112">
-                  <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="textbutton.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/js/extensions/textbutton.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="vertical" split-proportion="0.72755104">
+          <split-first>
+            <leaf>
+              <file leaf-file-name="playPairs.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/js/states/playPairs.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="561">
+                      <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
+                      <folding>
+                        <element signature="e#980#1084#0" expanded="false" />
+                        <element signature="e#1444#1477#0" expanded="false" />
+                        <element signature="e#1517#1672#0" expanded="false" />
+                        <element signature="e#1693#1914#0" expanded="false" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="preload.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/js/states/preload.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="586">
+                      <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="tiles.png" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/img/spritesheet/tiles.png">
+                  <provider selected="true" editor-type-id="images">
+                    <state />
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="play.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/js/states/play.js">
+          <file leaf-file-name="cardbutton.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/js/extensions/cardbutton.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="576">
-                  <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                <state relative-caret-position="288">
+                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="28" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="playPang.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/js/states/playPang.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="274">
+                  <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
                   <folding>
-                    <element signature="e#0#39#0" expanded="true" />
+                    <element signature="e#353#559#0" expanded="false" />
+                    <element signature="e#1576#2056#0" expanded="false" />
+                    <element signature="e#2177#2288#0" expanded="false" />
+                    <element signature="e#2678#2750#0" expanded="false" />
+                    <element signature="e#3622#4233#0" expanded="false" />
+                    <element signature="e#3686#4221#0" expanded="false" />
+                    <element signature="e#4294#4495#0" expanded="false" />
+                    <element signature="e#5272#5615#0" expanded="false" />
+                    <element signature="e#5646#5976#0" expanded="false" />
+                    <element signature="e#6006#6368#0" expanded="false" />
+                    <element signature="e#6396#7603#0" expanded="false" />
+                    <element signature="e#7633#9095#0" expanded="false" />
+                    <element signature="e#8030#8496#0" expanded="false" />
+                    <element signature="e#8541#9010#0" expanded="false" />
+                    <element signature="e#9127#9614#0" expanded="false" />
+                    <element signature="e#10026#10214#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -84,6 +133,13 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>this.smaller</find>
@@ -91,9 +147,15 @@
       <find>Phaser</find>
       <find>loadMen</find>
       <find>game2</find>
-      <find>button</find>
       <find>start</find>
       <find>source</find>
+      <find>button</find>
+      <find>scoreText</find>
+      <find>game</find>
+      <find>numRows</find>
+      <find>state</find>
+      <find>placeCards</find>
+      <find>tileSpac</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,11 +167,14 @@
         <option value="$PROJECT_DIR$/src/js/prefabs/enemyPang.js" />
         <option value="$PROJECT_DIR$/src/js/prefabs/player.js" />
         <option value="$PROJECT_DIR$/src/js/states/playPang.js" />
-        <option value="$PROJECT_DIR$/src/js/states/preload.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/states/index.js" />
         <option value="$PROJECT_DIR$/src/js/states/menu.js" />
         <option value="$PROJECT_DIR$/src/js/prefabs/playPairs.js" />
+        <option value="$PROJECT_DIR$/src/js/extensions/cardButton.js" />
+        <option value="$PROJECT_DIR$/src/js/states/preload.js" />
+        <option value="$USER_HOME$/Downloads/From_null_to_full_html5_cross_platform_game/25 - Organizing your folders/game.js" />
+        <option value="$PROJECT_DIR$/src/js/extensions/cardbutton.js" />
         <option value="$PROJECT_DIR$/src/js/states/playPairs.js" />
       </list>
     </option>
@@ -149,8 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,50 +282,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goIntro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goIntro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prefabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goIntro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goIntro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extensions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -278,6 +299,7 @@
       <recent name="$PROJECT_DIR$/src/js/prefabs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img/spritesheet" />
       <recent name="$PROJECT_DIR$/src/js/extensions" />
     </key>
   </component>
@@ -373,34 +395,35 @@
       <updated>1492424359924</updated>
       <workItem from="1492424367513" duration="5001000" />
       <workItem from="1492430844117" duration="6541000" />
-      <workItem from="1492439275408" duration="3518000" />
+      <workItem from="1492439275408" duration="6367000" />
+      <workItem from="1492587781325" duration="7953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15060000" />
+    <option name="totallyTimeSpent" value="25862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23930079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -422,7 +445,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#353#559#0" expanded="false" />
             <element signature="e#1576#2056#0" expanded="false" />
             <element signature="e#2177#2288#0" expanded="false" />
@@ -438,7 +460,7 @@
             <element signature="e#8030#8496#0" expanded="false" />
             <element signature="e#8541#9010#0" expanded="false" />
             <element signature="e#9127#9614#0" expanded="false" />
-            <element signature="e#9630#10010#0" expanded="false" />
+            <element signature="e#10026#10214#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -447,7 +469,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#237#336#0" expanded="false" />
+            <element signature="e#1268#1356#0" expanded="false" />
+            <element signature="e#2197#2280#0" expanded="false" />
+            <element signature="e#2342#2767#0" expanded="false" />
+            <element signature="e#3138#3226#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -456,7 +484,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
             <element signature="e#353#559#0" expanded="false" />
             <element signature="e#1576#2056#0" expanded="false" />
             <element signature="e#2177#2288#0" expanded="false" />
@@ -472,7 +499,7 @@
             <element signature="e#8030#8496#0" expanded="false" />
             <element signature="e#8541#9010#0" expanded="false" />
             <element signature="e#9127#9614#0" expanded="false" />
-            <element signature="e#9630#10010#0" expanded="false" />
+            <element signature="e#10026#10214#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -504,9 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="e#115#2153#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,11 +547,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="208.5" y="139.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="139.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -540,21 +565,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/preload.js">
+    <entry file="file://$PROJECT_DIR$/src/js/states/boot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="272">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/spritesheet/smallfighter.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/spritesheet/button.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/spritesheet/alien.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/states/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/extensions/textbutton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/states/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        <state relative-caret-position="285">
+          <caret line="63" column="9" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="e#237#336#0" expanded="false" />
-            <element signature="e#1420#1834#0" expanded="false" />
+            <element signature="e#1268#1356#0" expanded="false" />
             <element signature="e#2197#2280#0" expanded="false" />
             <element signature="e#2342#2767#0" expanded="false" />
             <element signature="e#3138#3226#0" expanded="false" />
@@ -564,18 +620,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/states/play.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/spritesheet/tiles.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/states/playPang.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="148" column="20" lean-forward="true" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+        <state relative-caret-position="274">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding>
             <element signature="e#353#559#0" expanded="false" />
             <element signature="e#1576#2056#0" expanded="false" />
@@ -592,44 +653,69 @@
             <element signature="e#8030#8496#0" expanded="false" />
             <element signature="e#8541#9010#0" expanded="false" />
             <element signature="e#9127#9614#0" expanded="false" />
-            <element signature="e#9630#10010#0" expanded="false" />
             <element signature="e#10026#10214#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/boot.js">
+    <entry file="uml://JavaScript-modules-diagram//Users/Work/Sites/goIntro/src/js/states/playPairs.js">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/js/states/playPairs.js</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/js/extensions/cardbutton.js</node>
+            <node x="" y="">$PROJECT_DIR$/src/js/states/playPairs.js#CardButton#7;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="136.5" y="64.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/states/preload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="586">
+          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/index.js">
+    <entry file="file://$USER_HOME$/Downloads/From_null_to_full_html5_cross_platform_game/25 - Organizing your folders/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="172">
+          <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+          <folding>
+            <element signature="e#472#826#0" expanded="false" />
+            <element signature="e#920#1110#0" expanded="false" />
+            <element signature="e#1127#1230#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/extensions/cardbutton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="28" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/states/playPairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#309#465#0" expanded="false" />
+            <element signature="e#980#1084#0" expanded="false" />
+            <element signature="e#1444#1477#0" expanded="false" />
+            <element signature="e#1517#1672#0" expanded="false" />
+            <element signature="e#1693#1914#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/extensions/textbutton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
