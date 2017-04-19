@@ -1,4 +1,4 @@
-import Player from '../prefabs/player';
+import Player from '../shooter/player';
 export default class Hud extends Phaser.Group {
     constructor({ game, player }) {
         super(game);

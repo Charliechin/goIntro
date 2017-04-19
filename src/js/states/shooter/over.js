@@ -1,10 +1,10 @@
-import TextButton from '../extensions/textbutton';
+import TextButton from '../../extensions/menu/textbutton';
 
-export default class PangOver extends Phaser.State {
+export default class Over extends Phaser.State {
 
     create() {
 
-        this.gameOverTitle = new Phaser.Text(this.game, this.game.world.centerX, this.game.world.centerY-200, 'Pang Game over', {
+        this.gameOverTitle = new Phaser.Text(this.game, this.game.world.centerX, this.game.world.centerY-200, 'Game over', {
             font: '36px Tahoma',
             fill: 'white',
             align: 'center'
@@ -57,7 +57,7 @@ export default class PangOver extends Phaser.State {
         this.menu.setDownSound(this.btnDownSound);
 
         this.start.onInputDown.add(()=>{
-            this.state.start('PlayPang');
+            this.state.start('Play');
         });
 
         this.menu.onInputDown.add(()=>{

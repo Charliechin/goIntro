@@ -1,4 +1,4 @@
-import TextButton from '../extensions/textbutton';
+import TextButton from '../extensions/menu/textbutton';
 
 export default class Menu extends Phaser.State {
 

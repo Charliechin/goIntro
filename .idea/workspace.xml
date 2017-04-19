@@ -2,11 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d2425f7-c0e7-437e-883a-cbb01b005647" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/spritesheet/tiles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/extensions/cardbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/shooter/particle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/extensions/pairs/cardbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/prefabs/shooter/hud.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/prefabs/shooter/player.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/states/pairs/playPairs.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/music/menu.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/music/play.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/sound/bullet-hit.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/sound/enemy-explosion.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/sound/enemy-shot.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/sound/game-over.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/sound/menu-click.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/sound/menu-out.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/sound/menu-over.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/sound/player-explosion.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/audio/sound/player-shot.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/data/spritesheet/alien.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/data/spritesheet/button.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/data/spritesheet/smallfighter.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/farback.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/healthbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/hud-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/pangBg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/particle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/spritesheet/alien.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/spritesheet/button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/spritesheet/smallfighter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/dev/img/spritesheet/tiles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/extensions/cardbutton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/states/playPairs.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/music/menu.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/music/menu.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/music/play.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/music/play.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/sound/bullet-hit.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/sound/bullet-hit.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/sound/enemy-explosion.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/sound/enemy-explosion.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/sound/enemy-shot.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/sound/enemy-shot.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/sound/game-over.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/sound/game-over.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/sound/menu-click.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/sound/menu-click.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/sound/menu-out.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/sound/menu-out.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/sound/menu-over.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/sound/menu-over.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/sound/player-explosion.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/sound/player-explosion.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/audio/sound/player-shot.mp3" afterPath="$PROJECT_DIR$/src/audio/shooter/sound/player-shot.mp3" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/spritesheet/alien.json" afterPath="$PROJECT_DIR$/src/data/shooter/spritesheet/alien.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/spritesheet/button.json" afterPath="$PROJECT_DIR$/src/data/generic/button.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/data/spritesheet/smallfighter.json" afterPath="$PROJECT_DIR$/src/data/shooter/spritesheet/smallfighter.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/bullet.png" afterPath="$PROJECT_DIR$/src/img/shooter/bullet.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/farback.jpg" afterPath="$PROJECT_DIR$/src/img/shooter/farback.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/healthbar.png" afterPath="$PROJECT_DIR$/src/img/shooter/healthbar.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/hud-bg.png" afterPath="$PROJECT_DIR$/src/img/shooter/hud-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/pangBg.png" afterPath="$PROJECT_DIR$/src/img/pang/pangBg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/particle.gif" afterPath="$PROJECT_DIR$/src/img/pang/particle.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/spritesheet/alien.png" afterPath="$PROJECT_DIR$/src/img/shooter/spritesheet/alien.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/spritesheet/button.png" afterPath="$PROJECT_DIR$/src/img/button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/spritesheet/smallfighter.png" afterPath="$PROJECT_DIR$/src/img/shooter/spritesheet/smallfighter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/img/spritesheet/tiles.png" afterPath="$PROJECT_DIR$/src/img/shooter/spritesheet/tiles.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/extensions/textbutton.js" afterPath="$PROJECT_DIR$/src/js/extensions/menu/textbutton.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/prefabs/bullet.js" afterPath="$PROJECT_DIR$/src/js/prefabs/pang/bullet.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/prefabs/enemy.js" afterPath="$PROJECT_DIR$/src/js/prefabs/shooter/enemy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/prefabs/enemyPang.js" afterPath="$PROJECT_DIR$/src/js/prefabs/pang/enemyPang.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/prefabs/hud.js" afterPath="$PROJECT_DIR$/src/js/prefabs/pang/hud.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/prefabs/player.js" afterPath="$PROJECT_DIR$/src/js/prefabs/pang/player.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/states/over.js" afterPath="$PROJECT_DIR$/src/js/states/shooter/over.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/states/pairsOver.js" afterPath="$PROJECT_DIR$/src/js/states/pairs/pairsOver.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/states/pangOver.js" afterPath="$PROJECT_DIR$/src/js/states/pang/pangOver.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/states/play.js" afterPath="$PROJECT_DIR$/src/js/states/shooter/play.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/js/states/playPang.js" afterPath="$PROJECT_DIR$/src/js/states/pang/playPang.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/dev/js/game.js" afterPath="$PROJECT_DIR$/builds/dev/js/game.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/states/playPairs.js" afterPath="$PROJECT_DIR$/src/js/states/playPairs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/states/index.js" afterPath="$PROJECT_DIR$/src/js/states/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/states/menu.js" afterPath="$PROJECT_DIR$/src/js/states/menu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/states/preload.js" afterPath="$PROJECT_DIR$/src/js/states/preload.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,12 +92,15 @@
             <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
               <entry file="file://$USER_HOME$/Downloads/From_null_to_full_html5_cross_platform_game/25 - Organizing your folders/game.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="172">
-                    <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+                  <state relative-caret-position="221">
+                    <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
                     <folding>
                       <element signature="e#472#826#0" expanded="false" />
                       <element signature="e#920#1110#0" expanded="false" />
                       <element signature="e#1127#1230#0" expanded="false" />
+                      <element signature="e#1538#2554#0" expanded="false" />
+                      <element signature="e#2699#2758#0" expanded="false" />
+                      <element signature="e#3052#3967#0" expanded="false" />
                     </folding>
                   </state>
                 </provider>
@@ -45,93 +113,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46656978">
-      <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.72755104">
-          <split-first>
-            <leaf>
-              <file leaf-file-name="playPairs.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/js/states/playPairs.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="561">
-                      <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
-                      <folding>
-                        <element signature="e#980#1084#0" expanded="false" />
-                        <element signature="e#1444#1477#0" expanded="false" />
-                        <element signature="e#1517#1672#0" expanded="false" />
-                        <element signature="e#1693#1914#0" expanded="false" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="preload.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/js/states/preload.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="586">
-                      <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="tiles.png" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/img/spritesheet/tiles.png">
-                  <provider selected="true" editor-type-id="images">
-                    <state />
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="cardbutton.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/js/extensions/cardbutton.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="28" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="playPang.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/js/states/playPang.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#353#559#0" expanded="false" />
-                    <element signature="e#1576#2056#0" expanded="false" />
-                    <element signature="e#2177#2288#0" expanded="false" />
-                    <element signature="e#2678#2750#0" expanded="false" />
-                    <element signature="e#3622#4233#0" expanded="false" />
-                    <element signature="e#3686#4221#0" expanded="false" />
-                    <element signature="e#4294#4495#0" expanded="false" />
-                    <element signature="e#5272#5615#0" expanded="false" />
-                    <element signature="e#5646#5976#0" expanded="false" />
-                    <element signature="e#6006#6368#0" expanded="false" />
-                    <element signature="e#6396#7603#0" expanded="false" />
-                    <element signature="e#7633#9095#0" expanded="false" />
-                    <element signature="e#8030#8496#0" expanded="false" />
-                    <element signature="e#8541#9010#0" expanded="false" />
-                    <element signature="e#9127#9614#0" expanded="false" />
-                    <element signature="e#10026#10214#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,9 +135,15 @@
       <find>scoreText</find>
       <find>game</find>
       <find>numRows</find>
-      <find>state</find>
       <find>placeCards</find>
       <find>tileSpac</find>
+      <find>cardsArray</find>
+      <find>state</find>
+      <find>tiles</find>
+      <find>chosenClient</find>
+      <find>state.</find>
+      <find>chosenCli</find>
+      <find>win con</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,16 +154,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/js/prefabs/enemyPang.js" />
         <option value="$PROJECT_DIR$/src/js/prefabs/player.js" />
-        <option value="$PROJECT_DIR$/src/js/states/playPang.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/states/index.js" />
-        <option value="$PROJECT_DIR$/src/js/states/menu.js" />
         <option value="$PROJECT_DIR$/src/js/prefabs/playPairs.js" />
         <option value="$PROJECT_DIR$/src/js/extensions/cardButton.js" />
-        <option value="$PROJECT_DIR$/src/js/states/preload.js" />
         <option value="$USER_HOME$/Downloads/From_null_to_full_html5_cross_platform_game/25 - Organizing your folders/game.js" />
         <option value="$PROJECT_DIR$/src/js/extensions/cardbutton.js" />
         <option value="$PROJECT_DIR$/src/js/states/playPairs.js" />
+        <option value="$PROJECT_DIR$/src/js/states/playPang.js" />
+        <option value="$PROJECT_DIR$/src/js/states/menu.js" />
+        <option value="$PROJECT_DIR$/src/js/states/preload.js" />
       </list>
     </option>
   </component>
@@ -278,7 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="states" />
+              <option name="myItemId" value="prefabs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,13 +282,19 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/js/states" />
-      <recent name="$PROJECT_DIR$/src/js/prefabs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img/pang" />
+      <recent name="$PROJECT_DIR$/src/js/prefabs/shooter" />
+      <recent name="$PROJECT_DIR$/src/js/prefabs/pang" />
       <recent name="$PROJECT_DIR$/src/img/spritesheet" />
       <recent name="$PROJECT_DIR$/src/js/extensions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/data/generic" />
+      <recent name="$PROJECT_DIR$/src/js/states/shooter" />
+      <recent name="$PROJECT_DIR$/src/js/states/pairs" />
+      <recent name="$PROJECT_DIR$/src/js/states/pang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -386,6 +380,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2d2425f7-c0e7-437e-883a-cbb01b005647" name="Default" comment="" />
@@ -396,16 +393,15 @@
       <workItem from="1492424367513" duration="5001000" />
       <workItem from="1492430844117" duration="6541000" />
       <workItem from="1492439275408" duration="6367000" />
-      <workItem from="1492587781325" duration="7953000" />
+      <workItem from="1492587781325" duration="21288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25862000" />
+    <option name="totallyTimeSpent" value="39197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705847" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -440,27 +436,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/states/playPang.js">
+    <entry file="file://$PROJECT_DIR$/src/js/states/pang/playPang.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#353#559#0" expanded="false" />
-            <element signature="e#1576#2056#0" expanded="false" />
-            <element signature="e#2177#2288#0" expanded="false" />
-            <element signature="e#2678#2750#0" expanded="false" />
-            <element signature="e#3622#4233#0" expanded="false" />
-            <element signature="e#3686#4221#0" expanded="false" />
-            <element signature="e#4294#4495#0" expanded="false" />
-            <element signature="e#5272#5615#0" expanded="false" />
-            <element signature="e#5646#5976#0" expanded="false" />
-            <element signature="e#6006#6368#0" expanded="false" />
-            <element signature="e#6396#7603#0" expanded="false" />
-            <element signature="e#7633#9095#0" expanded="false" />
-            <element signature="e#8030#8496#0" expanded="false" />
-            <element signature="e#8541#9010#0" expanded="false" />
-            <element signature="e#9127#9614#0" expanded="false" />
-            <element signature="e#10026#10214#0" expanded="false" />
+            <element signature="e#380#586#0" expanded="false" />
+            <element signature="e#1603#2083#0" expanded="false" />
+            <element signature="e#2204#2315#0" expanded="false" />
+            <element signature="e#2705#2777#0" expanded="false" />
+            <element signature="e#3649#4260#0" expanded="false" />
+            <element signature="e#3713#4248#0" expanded="false" />
+            <element signature="e#4321#4522#0" expanded="false" />
+            <element signature="e#5299#5642#0" expanded="false" />
+            <element signature="e#5673#6003#0" expanded="false" />
+            <element signature="e#6033#6395#0" expanded="false" />
+            <element signature="e#6423#7630#0" expanded="false" />
+            <element signature="e#7660#9122#0" expanded="false" />
+            <element signature="e#8057#8523#0" expanded="false" />
+            <element signature="e#8568#9037#0" expanded="false" />
+            <element signature="e#9154#9641#0" expanded="false" />
+            <element signature="e#10053#10241#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -470,48 +466,48 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#237#336#0" expanded="false" />
-            <element signature="e#1268#1356#0" expanded="false" />
-            <element signature="e#2197#2280#0" expanded="false" />
-            <element signature="e#2342#2767#0" expanded="false" />
-            <element signature="e#3138#3226#0" expanded="false" />
+            <element signature="e#242#341#0" expanded="false" />
+            <element signature="e#1273#1361#0" expanded="false" />
+            <element signature="e#2202#2285#0" expanded="false" />
+            <element signature="e#2347#2772#0" expanded="false" />
+            <element signature="e#3143#3231#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/playPang.js">
+    <entry file="file://$PROJECT_DIR$/src/js/states/pang/playPang.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#353#559#0" expanded="false" />
-            <element signature="e#1576#2056#0" expanded="false" />
-            <element signature="e#2177#2288#0" expanded="false" />
-            <element signature="e#2678#2750#0" expanded="false" />
-            <element signature="e#3622#4233#0" expanded="false" />
-            <element signature="e#3686#4221#0" expanded="false" />
-            <element signature="e#4294#4495#0" expanded="false" />
-            <element signature="e#5272#5615#0" expanded="false" />
-            <element signature="e#5646#5976#0" expanded="false" />
-            <element signature="e#6006#6368#0" expanded="false" />
-            <element signature="e#6396#7603#0" expanded="false" />
-            <element signature="e#7633#9095#0" expanded="false" />
-            <element signature="e#8030#8496#0" expanded="false" />
-            <element signature="e#8541#9010#0" expanded="false" />
-            <element signature="e#9127#9614#0" expanded="false" />
-            <element signature="e#10026#10214#0" expanded="false" />
+            <element signature="e#380#586#0" expanded="false" />
+            <element signature="e#1603#2083#0" expanded="false" />
+            <element signature="e#2204#2315#0" expanded="false" />
+            <element signature="e#2705#2777#0" expanded="false" />
+            <element signature="e#3649#4260#0" expanded="false" />
+            <element signature="e#3713#4248#0" expanded="false" />
+            <element signature="e#4321#4522#0" expanded="false" />
+            <element signature="e#5299#5642#0" expanded="false" />
+            <element signature="e#5673#6003#0" expanded="false" />
+            <element signature="e#6033#6395#0" expanded="false" />
+            <element signature="e#6423#7630#0" expanded="false" />
+            <element signature="e#7660#9122#0" expanded="false" />
+            <element signature="e#8057#8523#0" expanded="false" />
+            <element signature="e#8568#9037#0" expanded="false" />
+            <element signature="e#9154#9641#0" expanded="false" />
+            <element signature="e#10053#10241#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/prefabs/bullet.js">
+    <entry file="file://$PROJECT_DIR$/src/js/prefabs/pang/bullet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/prefabs/enemyPang.js">
+    <entry file="file://$PROJECT_DIR$/src/js/prefabs/pang/enemyPang.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -519,18 +515,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/prefabs/player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="75" column="44" lean-forward="false" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/over.js">
+    <entry file="file://$PROJECT_DIR$/src/js/states/shooter/over.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -565,25 +554,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/boot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/spritesheet/smallfighter.png">
+    <entry file="file://$PROJECT_DIR$/src/img/shooter/spritesheet/smallfighter.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/spritesheet/button.png">
+    <entry file="file://$PROJECT_DIR$/src/img/button.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/spritesheet/alien.png">
+    <entry file="file://$PROJECT_DIR$/src/img/shooter/spritesheet/alien.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -596,7 +577,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/extensions/textbutton.js">
+    <entry file="file://$PROJECT_DIR$/src/js/extensions/menu/textbutton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
@@ -604,58 +585,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="63" column="9" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="e#237#336#0" expanded="false" />
-            <element signature="e#1268#1356#0" expanded="false" />
-            <element signature="e#2197#2280#0" expanded="false" />
-            <element signature="e#2342#2767#0" expanded="false" />
-            <element signature="e#3138#3226#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/play.js">
+    <entry file="file://$PROJECT_DIR$/src/js/states/shooter/play.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/spritesheet/tiles.png">
+    <entry file="file://$PROJECT_DIR$/src/img/shooter/spritesheet/tiles.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/playPang.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
-          <folding>
-            <element signature="e#353#559#0" expanded="false" />
-            <element signature="e#1576#2056#0" expanded="false" />
-            <element signature="e#2177#2288#0" expanded="false" />
-            <element signature="e#2678#2750#0" expanded="false" />
-            <element signature="e#3622#4233#0" expanded="false" />
-            <element signature="e#3686#4221#0" expanded="false" />
-            <element signature="e#4294#4495#0" expanded="false" />
-            <element signature="e#5272#5615#0" expanded="false" />
-            <element signature="e#5646#5976#0" expanded="false" />
-            <element signature="e#6006#6368#0" expanded="false" />
-            <element signature="e#6396#7603#0" expanded="false" />
-            <element signature="e#7633#9095#0" expanded="false" />
-            <element signature="e#8030#8496#0" expanded="false" />
-            <element signature="e#8541#9010#0" expanded="false" />
-            <element signature="e#9127#9614#0" expanded="false" />
-            <element signature="e#10026#10214#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="uml://JavaScript-modules-diagram//Users/Work/Sites/goIntro/src/js/states/playPairs.js">
@@ -678,43 +620,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/preload.js">
+    <entry file="file://$PROJECT_DIR$/src/js/extensions/pairs/cardbutton.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="43" column="30" lean-forward="false" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        <state relative-caret-position="128">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/From_null_to_full_html5_cross_platform_game/25 - Organizing your folders/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="72" column="35" lean-forward="true" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        <state relative-caret-position="221">
+          <caret line="81" column="1" lean-forward="false" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
           <folding>
             <element signature="e#472#826#0" expanded="false" />
             <element signature="e#920#1110#0" expanded="false" />
             <element signature="e#1127#1230#0" expanded="false" />
+            <element signature="e#1538#2554#0" expanded="false" />
+            <element signature="e#2699#2758#0" expanded="false" />
+            <element signature="e#3052#3967#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/extensions/cardbutton.js">
+    <entry file="file://$PROJECT_DIR$/src/img/loader-bar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/loader-bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/prefabs/shooter/player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="28" selection-end-column="3" />
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/states/playPairs.js">
+    <entry file="file://$PROJECT_DIR$/src/img/pairs/tilesClient.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="102" column="34" lean-forward="true" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
+        <state relative-caret-position="96">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/prefabs/shooter/hud.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/prefabs/pang/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/states/pang/playPang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
           <folding>
-            <element signature="e#980#1084#0" expanded="false" />
-            <element signature="e#1444#1477#0" expanded="false" />
-            <element signature="e#1517#1672#0" expanded="false" />
-            <element signature="e#1693#1914#0" expanded="false" />
+            <element signature="e#380#586#0" expanded="false" />
+            <element signature="e#1603#2083#0" expanded="false" />
+            <element signature="e#2204#2315#0" expanded="false" />
+            <element signature="e#2705#2777#0" expanded="false" />
+            <element signature="e#3649#4260#0" expanded="false" />
+            <element signature="e#3713#4248#0" expanded="false" />
+            <element signature="e#4321#4522#0" expanded="false" />
+            <element signature="e#5299#5642#0" expanded="false" />
+            <element signature="e#5673#6003#0" expanded="false" />
+            <element signature="e#6033#6395#0" expanded="false" />
+            <element signature="e#6423#7630#0" expanded="false" />
+            <element signature="e#7660#9122#0" expanded="false" />
+            <element signature="e#8057#8523#0" expanded="false" />
+            <element signature="e#8568#9037#0" expanded="false" />
+            <element signature="e#9154#9641#0" expanded="false" />
+            <element signature="e#10053#10241#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/states/boot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/states/pairs/playPairs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#1166#1270#0" expanded="false" />
+            <element signature="e#1630#1663#0" expanded="false" />
+            <element signature="e#1879#2100#0" expanded="false" />
+            <element signature="e#2638#2946#0" expanded="false" />
+            <element signature="e#3022#4011#0" expanded="false" />
+            <element signature="e#4043#4709#0" expanded="false" />
+            <element signature="e#4983#5121#0" expanded="false" />
+            <element signature="e#5907#6228#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/states/preload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="73" lean-forward="true" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/states/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="e#242#341#0" expanded="false" />
+            <element signature="e#1273#1361#0" expanded="false" />
+            <element signature="e#2202#2285#0" expanded="false" />
+            <element signature="e#2347#2772#0" expanded="false" />
+            <element signature="e#3143#3231#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,6 @@
-import Player from '../prefabs/player';
-import Enemy from '../prefabs/enemyPang';
-import HUD from '../prefabs/hud';
+import Player from '../../prefabs/shooter/player';
+import Enemy from '../../prefabs/pang/enemyPang';
+import HUD from '../../prefabs/pang/hud';
 
 export default class PlayPang extends Phaser.State {
 
