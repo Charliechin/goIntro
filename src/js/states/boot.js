@@ -11,7 +11,6 @@ export default class Boot extends Phaser.State {
 
         this.scale.pageAlignHorizontally = true;
         this.scale.pageAlignVertically = true;
-
         this.game.physics.startSystem(Phaser.Physics.ARCADE);
         this.state.start('Preload');
     }

@@ -6,30 +6,30 @@ export default class PlayPairs extends Phaser.State {
 
         //this.bg = this.add.tileSprite(0, 0,666,600, 'pangBg');
         this.game.stage.backgroundColor = '#4ed0e1';
-
+        this.bg = this.game.add.image(0, 0, 'bg');
         this.numRows = 4;
         this.numCols = 5;
-        this.tileSize = 80;
-        this.tileSpacing = 20;
+        this.tileSize = 155;
+        this.tileSpacing = 5;
         this.tilesLeft = (this.numRows * this.numCols);
 
-        this.backOfTheCard = 22;
+        this.backOfTheCard = 10;
 
             /*
             * Clients starts at position 10 (count spaces in spriteSheet)
-            * 10 = Google
-            * 11 = Amazon
-            * 12 = CapitalOne
-            * 13 = Goldman Sachs
-            * 14 = Accenture
-            * 15 = Capgemini
-            * 16 = PWC
+            * 13 = Google
+            * 14 = Amazon
+            * 15 = CapitalOne
+            * 16 = Goldman Sachs
+            * 17 = Accenture
+            * 18 = Capgemini
+            * 19 = PWC
             * 17 = ...
             * 18 = ...
             * 19 = ...
             * 20 = ...
             */
-        this.chosenClient = 10;
+        this.chosenClient = 13;
 
 
         this.cardGroup = this.add.group();
@@ -107,15 +107,15 @@ export default class PlayPairs extends Phaser.State {
 
                 let card = new CardButton({
                     game: this.game,
-                    x: leftSpace + i * (this.tileSize +	this.tileSpacing),
-                    y: topSpace + j * (this.tileSize + this.tileSpacing),
+                    x: leftSpace + i * (this.tileSize +	this.tileSpacing) + 75,
+                    y: topSpace + j * (this.tileSize + this.tileSpacing) + 100,
                     asset: 'tiles',
                     callback: this.showCard,
                     callbackContext: this,
+                    downFrame: 12,
                     value: this.cardsArray[j * this.numCols + i],
                     isClient: false
                 });
-
                 // This part is where we take the last card in our spritesheet and replace it with a client
                 // In this case value 9 is the last value of the 'standard' cards
                 if(card.value == 9){
@@ -189,7 +189,7 @@ export default class PlayPairs extends Phaser.State {
             // if(playSound){
             //     this.soundArray[2].play();
             // }
-
+            this.game.camera.shake(0.01, 100);
             // If they are not the same, face them off
             this.selectedCardsArray[0].frame = this.backOfTheCard;
             this.selectedCardsArray[1].frame = this.backOfTheCard;

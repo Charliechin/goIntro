@@ -45,8 +45,8 @@ export default class Preload extends Phaser.State {
 
         // matching pairs
 
-        this.load.spritesheet('tiles','img/pairs/tilesClient.png', 80, 80, 24);
-
+        this.load.spritesheet('tiles','img/pairs/tilesClient2.png', 150, 170, 15);
+        this.load.image('bg', 'img/pairs/bg.jpg');
         // matching pairs
     }
 
