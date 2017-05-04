@@ -11,6 +11,5 @@ export default class TextButton extends Phaser.Button {
         this.text.anchor.setTo(0.5);
 
         this.addChild(this.text);
-
     }
 }

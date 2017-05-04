@@ -10,7 +10,7 @@ export default class PlayPairs extends Phaser.State {
         this.numRows = 4;
         this.numCols = 5;
         this.tileSize = 155;
-        this.tileSpacing = 5;
+        this.tileSpacing = 35;
         this.tilesLeft = (this.numRows * this.numCols);
 
         this.backOfTheCard = 10;
@@ -29,12 +29,12 @@ export default class PlayPairs extends Phaser.State {
             * 19 = ...
             * 20 = ...
             */
-        this.chosenClient = 13;
+        this.chosenClient = 15;
 
 
         this.cardGroup = this.add.group();
         //set it to one minute (60)
-        this.timeLeft = 60;
+        this.timeLeft = 10;
         this.score = 0;
         this.highScore = 0;
 
@@ -73,10 +73,11 @@ export default class PlayPairs extends Phaser.State {
 
     decreaseTime() {
         this.timeLeft--;
+
         this.timeText.text = "Time left: " + this.timeLeft;
         if(this.timeLeft == 0) {
             //Change this to pairsOver
-            this.game.state.start('PangOver');
+            this.game.state.start('PairsOver');
         }
     }
     placeCards() {

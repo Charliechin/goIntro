@@ -4,7 +4,7 @@ export default class PangOver extends Phaser.State {
 
     create() {
 
-        this.gameOverTitle = new Phaser.Text(this.game, this.game.world.centerX, this.game.world.centerY-200, 'Pang Game over', {
+        this.gameOverTitle = new Phaser.Text(this.game, this.game.world.centerX, this.game.world.centerY-200, 'Pairs Game over', {
             font: '36px Tahoma',
             fill: 'white',
             align: 'center'

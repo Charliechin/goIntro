@@ -30,23 +30,6 @@ export default class Player extends Phaser.Sprite {
 
     update() {
 
-        // this.game.debug.body(this);
-
-
-
-        // if (this.game.input.activePointer.isDown) {
-
-            let leftKey = this.game.input.keyboard.isDown(Phaser.Keyboard.LEFT);
-            let rightKey = this.game.input.keyboard.isDown(Phaser.Keyboard.RIGHT);
-            if(leftKey){
-                this.x -= 6;
-
-            }
-            else if(rightKey){
-                this.x += 6;
-
-            }
-
     }
 
     shoot() {
